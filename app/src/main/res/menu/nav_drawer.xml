@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/nav_movies">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_discover_movie"
+                    android:icon="@drawable/discover"
+                    android:title="@string/nav_discover" />
+                <item
+                    android:id="@+id/nav_genre_movie"
+                    android:icon="@drawable/movie"
+                    android:title="@string/nav_genre" />
+                <item
+                    android:id="@+id/nav_search_movie"
+                    android:icon="@drawable/search"
+                    android:title="@string/nav_search" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/nav_tvshows">
+        <menu>
+            <item
+                android:id="@+id/nav_discover_tv"
+                android:icon="@drawable/discover"
+                android:title="@string/nav_discover" />
+            <item
+                android:id="@+id/nav_search_tv"
+                android:icon="@drawable/search"
+                android:title="@string/nav_search" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Movies OTG</string>
+    <string name="action_settings">Settings</string>
+    <string name="desc">Desc</string>
+    <string name="na">NA</string>
+    <string name="naa">NA</string>
+    <string name="nav_discover">Discover</string>
+    <string name="nav_genre">Genres</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_communicate">Communicate</string>
+    <string name="nav_share">Share</string>
+    <string name="nav_send">Send</string>
+    <string name="summa">sdfjksdhfs</string>
+    <string name="header_title">Movies On The Go</string>
+    <string name="header_author">by Senthil Kumar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="search_hint">Enter to search</string>
+    <string name="nav_movies">Movies</string>
+    <string name="nav_tvshows">TV Shows</string>
+    <string name="language_detail">Language : English</string>
+    <string name="release_detail">"Release Date: "</string>
+    <string name="ten_detail">/10</string>
+</resources>

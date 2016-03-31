@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_marginLeft = "@dimen/activity_horizontal_margin"
+    android:layout_marginRight = "@dimen/activity_horizontal_margin"
+    android:layout_marginTop = "@dimen/activity_horizontal_margin"
+    android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstLinear"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:src="@drawable/default_details"
+                android:id="@+id/imageView_details" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"/>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/rightRelative"
+                android:layout_weight="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/title_detail"
+                    android:textStyle="bold"
+                    style="@style/TextAppearance.AppCompat.Medium"
+                    android:textAlignment="inherit"
+                    android:text="Superman vs Batman: Dawn of Justice"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/year_detail"
+                    android:textStyle="italic"
+                    android:clipToPadding="true"
+                    android:text="2016"
+                    android:layout_below="@+id/title_detail"
+                    style="@style/Base.TextAppearance.AppCompat.Small"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/genre_detail"
+                    android:textStyle="italic"
+                    android:text="Action Adventure Comedy"
+                    android:layout_below="@+id/year_detail"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    style="@style/Base.TextAppearance.AppCompat.Small"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/release_detail"
+                    android:text="Release date: Jan 27, 2016"
+                    android:layout_below="@+id/genre_detail"
+                    android:layout_marginTop="4dp"
+                    style="@style/Base.TextAppearance.AppCompat.Small"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lang_detail"
+                    android:text="Language: English"
+                    android:layout_below="@+id/release_detail"
+                    android:layout_marginTop="4dp"
+                    style="@style/Base.TextAppearance.AppCompat.Small"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ratingLinear"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:orientation="horizontal"
+                    android:layout_below="@id/lang_detail">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ratingIcon"
+                        android:src="@drawable/rating_star"
+                        />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@+id/ratingIcon"
+                        android:layout_centerVertical="true">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="8.52/11"
+                            android:id="@+id/rating_detail"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/rating_detail"
+                            android:text="45234"
+                            android:id="@+id/voteCount_detail"/>
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:id="@+id/desc_detail"
+            android:layout_below="@+id/firstLinear"
+            android:text="Description"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/description_details"
+            android:layout_marginTop="4dp"
+            android:layout_below="@+id/desc_detail"
+            android:text="fkjdsfnfdkjndkjndkjnvfdjkvndndkfnvdfv kjdjgnkdfjn dkjfgn skjdskjdfng sdkjnsdjnasdjknsdakjfnsad ngfnffkjndfgkfndndfkgndfkgnfdskgsldkn sldkfngfldkndflknfdkslnsdkflngfdksgndsfkgndksfvfdsvfdskvdsflvsfld"/>
+
+
+</RelativeLayout>
